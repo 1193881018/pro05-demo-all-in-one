@@ -19,7 +19,7 @@ public class JDBCUtils {
 
         // 2.使用当前类的类加载器加载外部属性文件：jdbc.properties
         InputStream inputStream = JDBCUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
-
+        System.out.println("1");
         try {
 
             // 3.将外部属性文件jdbc.properties中的数据加载到properties对象中
