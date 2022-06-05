@@ -21,6 +21,7 @@ public class JDBCUtils {
         InputStream inputStream = JDBCUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
         System.out.println("1");
         System.out.println("1");
+        System.out.println("2");
         try {
 
             // 3.将外部属性文件jdbc.properties中的数据加载到properties对象中
