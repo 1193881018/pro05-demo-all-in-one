@@ -22,6 +22,7 @@ public class JDBCUtils {
         System.out.println("1");
         System.out.println("1");
         System.out.println("2");
+        System.out.println("3");
         try {
 
             // 3.将外部属性文件jdbc.properties中的数据加载到properties对象中
